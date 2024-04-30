@@ -1,8 +1,12 @@
+import Navbar from "./header/Navbar";
+import Login from "./login/Login";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <div>
-        <h1>hello next js ki khobor</h1>
+        <Navbar />
+        <Login />
       </div>
     </main>
   );
